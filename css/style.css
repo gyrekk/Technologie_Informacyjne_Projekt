@@ -4,11 +4,18 @@
 box-sizing: border-box;
 }
 nav {
-    top: 100px;
+    z-index: 99;
     position: fixed;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
-    height: 100px;
+    height: 50px;
 
+}
+nav img {
+    width: 300px;
 }
 header {
     position: relative;
@@ -21,7 +28,4 @@ header {
 }
 video {
     width: auto;
-}
-header img {
-    width: 300px;
 }
