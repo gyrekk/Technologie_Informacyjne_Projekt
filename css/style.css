@@ -3,6 +3,11 @@
     margin: 0;
 box-sizing: border-box;
 }
+nav {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+}
 header {
     position: relative;
     width: 100%;
