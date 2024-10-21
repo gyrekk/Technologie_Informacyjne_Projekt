@@ -1,35 +1,8 @@
 @font-face{
-    font-family: 'RMNeue-Black';
-    src: url(../fonts/rm_neue_font/RMNeue-Black.otf);
+    font-family: 'lol';
+    src: url(../fonts/Graphik_Collection/Graphik_Family/Graphik-Medium-Trial.otf);
 }
-@font-face{
-    font-family: 'RMNeue-Bold';
-    src: url(../fonts/rm_neue_font/RMNeue-Bold.otf);
-}
-@font-face{
-    font-family: 'RMNeue-SemiBold';
-    src: url(../fonts/rm_neue_font/RMNeue-SemiBold.otf);
-}
-@font-face{
-    font-family: 'RMNeue-Regular';
-    src: url(../fonts/rm_neue_font/RMNeue-Regular.otf);
-}
-@font-face{
-    font-family: 'RMNeue-Light';
-    src: url(../fonts/rm_neue_font/RMNeue-Light.otf);
-}
-@font-face{
-    font-family: 'BasierSquareMono';
-    src: url(../fonts/BasierSquareMono-Regular.otf);
-}
-@font-face{
-    font-family: 'PPNeueMontreal';
-    src: url(../fonts/PPNeueMontreal-Medium.otf);
-}
-@font-face{
-    font-family: 'circular-std';
-    src: url(../fonts/circular-std-medium-500.ttf);
-}
+
 * {
     padding: 0;
     margin: 0;
@@ -69,13 +42,14 @@ h1 {
     z-index: 1;
     position: absolute;
     /* font-family: 'BasierSquareMono'; */
-    font-family: 'RMNeue-Regular';
+    font-family: 'lol';
     font-weight: 400;
     /* font-family: 'circular-std'; */
     left: 5%;
     top: 25%;
     font-size: 100px;
     color: white;
+    letter-spacing: 2PX;
 }
 video {
     opacity: 0.7;
